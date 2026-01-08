@@ -1,0 +1,410 @@
+{
+  "overall_statistics": {
+    "total_revenue": 3527808.0,
+    "total_transactions": 70,
+    "total_quantity_sold": 387,
+    "average_transaction_value": 50397.26,
+    "invalid_records_count": 10,
+    "data_quality_score": 87.5
+  },
+  "sales_by_region": {
+    "South": 889332.0,
+    "East": 467969.0,
+    "North": 1321605.0,
+    "West": 848902.0
+  },
+  "sales_by_product": {
+    "P107": {
+      "name": "USB Cable",
+      "total_revenue": 7622.0,
+      "total_quantity": 33,
+      "transaction_count": 7,
+      "average_price": 230.97
+    },
+    "P110": {
+      "name": "Laptop Charger",
+      "total_revenue": 75478.0,
+      "total_quantity": 35,
+      "transaction_count": 8,
+      "average_price": 2156.51
+    },
+    "P109": {
+      "name": "Wireless Mouse",
+      "total_revenue": 65904.0,
+      "total_quantity": 62,
+      "transaction_count": 11,
+      "average_price": 1062.97
+    },
+    "P102": {
+      "name": "Mouse",
+      "total_revenue": 47081.0,
+      "total_quantity": 69,
+      "transaction_count": 12,
+      "average_price": 682.33
+    },
+    "P101": {
+      "name": "Laptop",
+      "total_revenue": 2254200.0,
+      "total_quantity": 30,
+      "transaction_count": 6,
+      "average_price": 75140.0
+    },
+    "P104": {
+      "name": "Monitor",
+      "total_revenue": 625863.0,
+      "total_quantity": 42,
+      "transaction_count": 7,
+      "average_price": 14901.5
+    },
+    "P105": {
+      "name": "Webcam",
+      "total_revenue": 146049.0,
+      "total_quantity": 41,
+      "transaction_count": 8,
+      "average_price": 3562.17
+    },
+    "P108": {
+      "name": "External Hard Drive1TB",
+      "total_revenue": 163437.0,
+      "total_quantity": 31,
+      "transaction_count": 4,
+      "average_price": 5272.16
+    },
+    "P103": {
+      "name": "KeyboardMechanical",
+      "total_revenue": 39752.0,
+      "total_quantity": 21,
+      "transaction_count": 3,
+      "average_price": 1892.95
+    },
+    "P106": {
+      "name": "Headphones",
+      "total_revenue": 102422.0,
+      "total_quantity": 23,
+      "transaction_count": 4,
+      "average_price": 4453.13
+    }
+  },
+  "sales_by_date": {
+    "2024-12-01": 123969.0,
+    "2024-12-02": 882906.0,
+    "2024-12-03": 61851.0,
+    "2024-12-05": 257.0,
+    "2024-12-06": 34072.0,
+    "2024-12-07": 204912.0,
+    "2024-12-08": 70383.0,
+    "2024-12-09": 25339.0,
+    "2024-12-10": 1550.0,
+    "2024-12-11": 13207.0,
+    "2024-12-13": 417923.0,
+    "2024-12-14": 45349.0,
+    "2024-12-15": 818960.0,
+    "2024-12-16": 3020.0,
+    "2024-12-17": 114356.0,
+    "2024-12-18": 81284.0,
+    "2024-12-20": 594.0,
+    "2024-12-21": 25992.0,
+    "2024-12-22": 89645.0,
+    "2024-12-23": 768.0,
+    "2024-12-24": 161907.0,
+    "2024-12-25": 30455.0,
+    "2024-12-26": 34218.0,
+    "2024-12-27": 119313.0,
+    "2024-12-29": 5608.0,
+    "2024-12-30": 159970.0
+  },
+  "top_customers": [
+    {
+      "CustomerID": "C004",
+      "total_spent": 857124.0,
+      "transaction_count": 3,
+      "unique_products_count": 3
+    },
+    {
+      "CustomerID": "C017",
+      "total_spent": 762460.0,
+      "transaction_count": 1,
+      "unique_products_count": 1
+    },
+    {
+      "CustomerID": "C010",
+      "total_spent": 457186.0,
+      "transaction_count": 3,
+      "unique_products_count": 3
+    },
+    {
+      "CustomerID": "C024",
+      "total_spent": 249451.0,
+      "transaction_count": 2,
+      "unique_products_count": 1
+    },
+    {
+      "CustomerID": "C008",
+      "total_spent": 216176.0,
+      "transaction_count": 5,
+      "unique_products_count": 5
+    },
+    {
+      "CustomerID": "C023",
+      "total_spent": 165391.0,
+      "transaction_count": 2,
+      "unique_products_count": 2
+    },
+    {
+      "CustomerID": "C003",
+      "total_spent": 118144.0,
+      "transaction_count": 3,
+      "unique_products_count": 3
+    },
+    {
+      "CustomerID": "C005",
+      "total_spent": 112405.0,
+      "transaction_count": 4,
+      "unique_products_count": 4
+    },
+    {
+      "CustomerID": "C013",
+      "total_spent": 75919.0,
+      "transaction_count": 3,
+      "unique_products_count": 3
+    },
+    {
+      "CustomerID": "C009",
+      "total_spent": 64707.0,
+      "transaction_count": 6,
+      "unique_products_count": 6
+    }
+  ],
+  "top_products": [
+    {
+      "ProductID": "P101",
+      "name": "Laptop",
+      "total_revenue": 2254200.0,
+      "total_quantity": 30
+    },
+    {
+      "ProductID": "P104",
+      "name": "Monitor",
+      "total_revenue": 625863.0,
+      "total_quantity": 42
+    },
+    {
+      "ProductID": "P108",
+      "name": "External Hard Drive1TB",
+      "total_revenue": 163437.0,
+      "total_quantity": 31
+    },
+    {
+      "ProductID": "P105",
+      "name": "Webcam",
+      "total_revenue": 146049.0,
+      "total_quantity": 41
+    },
+    {
+      "ProductID": "P106",
+      "name": "Headphones",
+      "total_revenue": 102422.0,
+      "total_quantity": 23
+    },
+    {
+      "ProductID": "P110",
+      "name": "Laptop Charger",
+      "total_revenue": 75478.0,
+      "total_quantity": 35
+    },
+    {
+      "ProductID": "P109",
+      "name": "Wireless Mouse",
+      "total_revenue": 65904.0,
+      "total_quantity": 62
+    },
+    {
+      "ProductID": "P102",
+      "name": "Mouse",
+      "total_revenue": 47081.0,
+      "total_quantity": 69
+    },
+    {
+      "ProductID": "P103",
+      "name": "KeyboardMechanical",
+      "total_revenue": 39752.0,
+      "total_quantity": 21
+    },
+    {
+      "ProductID": "P107",
+      "name": "USB Cable",
+      "total_revenue": 7622.0,
+      "total_quantity": 33
+    }
+  ],
+  "customer_statistics": {
+    "C009": {
+      "total_spent": 64707.0,
+      "transaction_count": 6,
+      "unique_products_count": 6,
+      "regions_count": 4
+    },
+    "C022": {
+      "total_spent": 45778.0,
+      "transaction_count": 5,
+      "unique_products_count": 4,
+      "regions_count": 4
+    },
+    "C010": {
+      "total_spent": 457186.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 3
+    },
+    "C011": {
+      "total_spent": 24144.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 1
+    },
+    "C004": {
+      "total_spent": 857124.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 2
+    },
+    "C029": {
+      "total_spent": 6238.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 3
+    },
+    "C024": {
+      "total_spent": 249451.0,
+      "transaction_count": 2,
+      "unique_products_count": 1,
+      "regions_count": 2
+    },
+    "C008": {
+      "total_spent": 216176.0,
+      "transaction_count": 5,
+      "unique_products_count": 5,
+      "regions_count": 3
+    },
+    "C018": {
+      "total_spent": 10152.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C023": {
+      "total_spent": 165391.0,
+      "transaction_count": 2,
+      "unique_products_count": 2,
+      "regions_count": 2
+    },
+    "C003": {
+      "total_spent": 118144.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 2
+    },
+    "C002": {
+      "total_spent": 34218.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C019": {
+      "total_spent": 56358.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 3
+    },
+    "C017": {
+      "total_spent": 762460.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C026": {
+      "total_spent": 10012.0,
+      "transaction_count": 2,
+      "unique_products_count": 2,
+      "regions_count": 2
+    },
+    "C012": {
+      "total_spent": 29735.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 2
+    },
+    "C015": {
+      "total_spent": 6330.0,
+      "transaction_count": 2,
+      "unique_products_count": 2,
+      "regions_count": 2
+    },
+    "C013": {
+      "total_spent": 75919.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 2
+    },
+    "C014": {
+      "total_spent": 2560.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C007": {
+      "total_spent": 57317.0,
+      "transaction_count": 4,
+      "unique_products_count": 4,
+      "regions_count": 3
+    },
+    "C025": {
+      "total_spent": 23148.0,
+      "transaction_count": 3,
+      "unique_products_count": 3,
+      "regions_count": 2
+    },
+    "C005": {
+      "total_spent": 112405.0,
+      "transaction_count": 4,
+      "unique_products_count": 4,
+      "regions_count": 3
+    },
+    "C028": {
+      "total_spent": 48359.0,
+      "transaction_count": 2,
+      "unique_products_count": 2,
+      "regions_count": 1
+    },
+    "C001": {
+      "total_spent": 11574.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C020": {
+      "total_spent": 51695.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C027": {
+      "total_spent": 2250.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C006": {
+      "total_spent": 24360.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    },
+    "C030": {
+      "total_spent": 4617.0,
+      "transaction_count": 1,
+      "unique_products_count": 1,
+      "regions_count": 1
+    }
+  }
+}

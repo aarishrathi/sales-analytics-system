@@ -1,0 +1,126 @@
+================================================================================
+SALES ANALYTICS REPORT
+Generated: 2026-01-08 21:16:47
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total Revenue: ₹3,527,808.00
+Total Transactions: 70
+Total Quantity Sold: 387
+Average Transaction Value: ₹50,397.26
+Invalid Records: 10
+Data Quality Score: 87.5%
+
+SALES BY REGION
+--------------------------------------------------------------------------------
+North: ₹1,321,605.00
+South: ₹889,332.00
+West: ₹848,902.00
+East: ₹467,969.00
+
+TOP 10 PRODUCTS BY REVENUE
+--------------------------------------------------------------------------------
+1. P101 - Laptop: ₹2,254,200.00 (30 units)
+2. P104 - Monitor: ₹625,863.00 (42 units)
+3. P108 - External Hard Drive1TB: ₹163,437.00 (31 units)
+4. P105 - Webcam: ₹146,049.00 (41 units)
+5. P106 - Headphones: ₹102,422.00 (23 units)
+6. P110 - Laptop Charger: ₹75,478.00 (35 units)
+7. P109 - Wireless Mouse: ₹65,904.00 (62 units)
+8. P102 - Mouse: ₹47,081.00 (69 units)
+9. P103 - KeyboardMechanical: ₹39,752.00 (21 units)
+10. P107 - USB Cable: ₹7,622.00 (33 units)
+
+TOP 10 CUSTOMERS BY SPENDING
+--------------------------------------------------------------------------------
+1. C004: ₹857,124.00 (3 transactions, 3 unique products)
+2. C017: ₹762,460.00 (1 transactions, 1 unique products)
+3. C010: ₹457,186.00 (3 transactions, 3 unique products)
+4. C024: ₹249,451.00 (2 transactions, 1 unique products)
+5. C008: ₹216,176.00 (5 transactions, 5 unique products)
+6. C023: ₹165,391.00 (2 transactions, 2 unique products)
+7. C003: ₹118,144.00 (3 transactions, 3 unique products)
+8. C005: ₹112,405.00 (4 transactions, 4 unique products)
+9. C013: ₹75,919.00 (3 transactions, 3 unique products)
+10. C009: ₹64,707.00 (6 transactions, 6 unique products)
+
+TOP 10 DAYS BY SALES
+--------------------------------------------------------------------------------
+2024-12-02: ₹882,906.00
+2024-12-15: ₹818,960.00
+2024-12-13: ₹417,923.00
+2024-12-07: ₹204,912.00
+2024-12-24: ₹161,907.00
+2024-12-30: ₹159,970.00
+2024-12-01: ₹123,969.00
+2024-12-27: ₹119,313.00
+2024-12-17: ₹114,356.00
+2024-12-22: ₹89,645.00
+
+DETAILED PRODUCT PERFORMANCE
+--------------------------------------------------------------------------------
+
+P101 - Laptop
+  Revenue: ₹2,254,200.00
+  Quantity Sold: 30
+  Transactions: 6
+  Average Price: ₹75,140.00
+
+P104 - Monitor
+  Revenue: ₹625,863.00
+  Quantity Sold: 42
+  Transactions: 7
+  Average Price: ₹14,901.50
+
+P108 - External Hard Drive1TB
+  Revenue: ₹163,437.00
+  Quantity Sold: 31
+  Transactions: 4
+  Average Price: ₹5,272.16
+
+P105 - Webcam
+  Revenue: ₹146,049.00
+  Quantity Sold: 41
+  Transactions: 8
+  Average Price: ₹3,562.17
+
+P106 - Headphones
+  Revenue: ₹102,422.00
+  Quantity Sold: 23
+  Transactions: 4
+  Average Price: ₹4,453.13
+
+P110 - Laptop Charger
+  Revenue: ₹75,478.00
+  Quantity Sold: 35
+  Transactions: 8
+  Average Price: ₹2,156.51
+
+P109 - Wireless Mouse
+  Revenue: ₹65,904.00
+  Quantity Sold: 62
+  Transactions: 11
+  Average Price: ₹1,062.97
+
+P102 - Mouse
+  Revenue: ₹47,081.00
+  Quantity Sold: 69
+  Transactions: 12
+  Average Price: ₹682.33
+
+P103 - KeyboardMechanical
+  Revenue: ₹39,752.00
+  Quantity Sold: 21
+  Transactions: 3
+  Average Price: ₹1,892.95
+
+P107 - USB Cable
+  Revenue: ₹7,622.00
+  Quantity Sold: 33
+  Transactions: 7
+  Average Price: ₹230.97
+
+================================================================================
+END OF REPORT
+================================================================================
