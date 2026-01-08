@@ -376,10 +376,26 @@ def enrich_sales_data(transactions, product_mapping):
 
     Enrichment Logic:
     - Extract numeric ID from ProductID (P101 → 101, P5 → 5)
+    - Map internal product IDs to API range (P101-P110 → 1-10)
     - If ID exists in product_mapping, add API fields
     - If ID doesn't exist, set API_Match to False and other fields to None
     - Handle all errors gracefully
     """
+    # Mapping from internal product IDs to API product IDs
+    # This maps P101-P110 to API products 1-10 for meaningful enrichment
+    ID_MAPPING = {
+        101: 1,   # Laptop products
+        102: 2,   # Mouse/Accessories
+        103: 3,   # Keyboard
+        104: 4,   # Monitor
+        105: 5,   # Webcam
+        106: 6,   # Headphones
+        107: 7,   # USB Cable/Accessories
+        108: 8,   # External Storage
+        109: 9,   # Wireless Mouse
+        110: 10   # Laptop Charger/Accessories
+    }
+    
     enriched_transactions = []
     
     for transaction in transactions:
@@ -395,6 +411,19 @@ def enrich_sales_data(transactions, product_mapping):
                 # Remove 'P' prefix and convert to integer
                 numeric_id_str = product_id[1:]  # Remove 'P'
                 numeric_id = int(numeric_id_str)
+                
+                # Map internal ID to API ID range
+                # If numeric_id is in our mapping, use the mapped value
+                # Otherwise, use it directly (for IDs already in range 1-100)
+                if numeric_id in ID_MAPPING:
+                    api_id = ID_MAPPING[numeric_id]
+                elif 1 <= numeric_id <= 100:
+                    api_id = numeric_id
+                else:
+                    api_id = None
+                
+                numeric_id = api_id
+                
         except (ValueError, AttributeError) as e:
             logger.debug(f"Could not extract numeric ID from ProductID '{product_id}': {e}")
             numeric_id = None
