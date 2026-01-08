@@ -21,7 +21,8 @@ sales-analytics-system/
 │   ├── __init__.py             # Package initializer
 │   ├── file_handler.py         # File reading and data loading
 │   ├── data_processor.py       # Data validation and analysis
-│   └── api_handler.py          # API integration for product info
+│   ├── api_handler.py          # API integration for product info
+│   └── report_generator.py     # Comprehensive report generation
 ├── data/
 │   └── sales_data.txt          # Sales transaction data file
 └── output/                     # Generated reports directory
